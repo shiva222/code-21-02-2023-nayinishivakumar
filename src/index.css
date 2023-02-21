@@ -7,6 +7,398 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.pag1 {
+  background-image: url("image.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.contain_box {
+  display: flex;
+  position: absolute;
+  top: 24px;
+
+}
+
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 24px;
+
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+
+}
+
+.explore {
+  position: relative;
+  padding-left: 80px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  align-items: center;
+  text-align: center;
+  top: 14px;
+  right: 39px
+}
+
+.pagelinks {
+  position: fixed;
+  left: 50%;
+  display: flex;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.borderbox {
+  width: 110px;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  margin-left: 71px;
+  height: 50px;
+}
+
+.heading {
+  position: absolute;
+  width: 795px;
+  height: 271px;
+  left: 306px;
+  top: 120px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 110px;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  width: 462px;
+  height: 68px;
+  left: 345px;
+  top: 404px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  align-items: center;
+  text-align: center;
+}
+
+.serchbox {
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  width: 940px;
+  height: 100px;
+  left: 166px;
+  top: 575px;
+
+  background: linear-gradient(94.43deg, rgba(249, 249, 249, 0.49) 34.95%, rgba(249, 249, 249, 0.175) 67.01%);
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}
+
+::placeholder {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 110%;
+  align-items: center;
+
+  color: #000000;
+}
+
+.txtBox {
+  width: 210px;
+  height: 70px;
+  margin-top: 14px;
+  margin-left: 20px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+
+.serBox {
+  width: 215px;
+  height: 70px;
+  margin-top: 14px;
+  margin-left: 20px;
+  background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+  border-radius: 16px;
+}
+
+.searchIcon {
+  padding-top: 13px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.fieldname {
+  margin-left: 10px;
+  position: absolute;
+  margin-top: 2px;
+  width: 44px;
+  height: 19px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  color: #6D6D6D;
+}
+
+.pholder {
+  padding-top: 24px;
+  margin-top: 11px;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.pholder:focus {
+  outline: none;
+}
+
+.pag2 {
+  position: absolute;
+  top: 100%;
+  color: #000000;
+}
+
+.pag3 {
+  position: absolute;
+  top: 200%;
+  color: #000000;
+}
+
+.explore2 {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  position: absolute;
+  width: 234px;
+  height: 70px;
+  left: 69px;
+}
+.title {
+  position: absolute;
+width: 274px;
+height: 70px;
+left: 98px;
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 110%;
+}
+
+.content {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 69px;
+  top: 174px;
+  text-align: center;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+}
+
+.pic_container {
+  display: flex;
+}
+
+.flex1 {
+  background-image: url("p22.png");
+  position: absolute;
+  left: 65px;
+  top: 270px;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url("p31.png");
+  background-size: cover;
+  position: absolute;
+  width: 611px;
+    height: 407.99px;
+left: 98px;
+top: 203px;
+border-radius: 15px;
+}
+.chapter{
+  box-sizing: border-box;
+position: absolute;
+width: 350px;
+height: 100px;
+bottom: -43px;
+left: 65px;
+background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 3.19%, rgba(255, 255, 255, 0.1) 99.26%);
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 15px;
+}
+.img2 {
+  background-image: url("p32.png");
+  background-size: cover;
+  position: absolute;
+  width: 500px;
+  margin-left:282px;
+height: 333.74px;
+left: 555px;
+top: 203px;
+border-radius: 15px;
+}
+.hding{
+  position: absolute;
+width: 126px;
+height: 26px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 110%;
+color: #000000;
+}
+.txtchap{
+  margin-top: 49px;
+}
+.p3text{
+  position: absolute;
+width: 300px;
+height: 20px;
+left: 98px;
+top: 135px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 110%;
+}
+.img3 {
+  background-image: url("p33.png");
+  background-size: cover;
+  position: absolute;
+  left: 98px;
+  width: 612px;
+  height: 548.74px;
+  border-radius: 15px;
+  top:706px;
+}
+.img4 {
+  background-image: url("p34.png");
+  background-size: cover;
+  position: absolute;
+  margin-left:282px;
+  margin-top:120px;
+  left: 555px;
+  width: 500px;
+  height: 424.74px;
+  border-radius: 15px;
+  top:506px;
+}
+
+.flex2 {
+  background-image: url("p21.png");
+  position: absolute;
+  left: 784px;
+  top: 270px;
+  background-size: cover;
+}
+
+.imgset {
+  height: 390px;
+  width: 650px;
+  padding-left: 20px;
+}
+
+.imgtext {
+  box-sizing: border-box;
+  position: absolute;
+  width: 547px;
+  height: 100px;
+  left: 58px;
+  top: 337px;
+  background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 3.19%, rgba(255, 255, 255, 0.1) 99.26%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  position: relative;
+  background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+  border-radius: 10px;
+}
+
+.imgbtn {
+  position: absolute;
+  left: 98px;
+  top: 390px;
+  display: flex;
+}
+.btn1{
+  top:10px;
+}
+.btn2 {
+  margin-left: 40px;
+  top:10px;
+}
+.btn3 {
+  margin-left: 90px;
+  top:-10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+
+
+}
+
+.txtimg {
+  float: left;
+  margin-left: 42px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
